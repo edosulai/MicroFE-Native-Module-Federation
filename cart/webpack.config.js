@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ModuleFederationPlugin = require('webpack/lib/hostapp/ModuleFederationPlugin');
+const { ModuleFederationPlugin } = require('webpack').container;
 
 module.exports = {
     mode: "development",
